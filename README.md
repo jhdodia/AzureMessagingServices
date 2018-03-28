@@ -13,7 +13,7 @@ for more details follow: https://docs.microsoft.com/en-us/azure/service-bus-mess
 
 # Required Things to use this sample
 ##### *From Azure Portal:*
-- **Azure Account:** To use azure cloud services (You can open free account for trial. Use This link to open free Account: https://azure.microsoft.com/en-in/free/).
+- **Azure Account:** To use azure cloud services you can open free account for trial. Use this link to open free Account: https://azure.microsoft.com/en-in/free/.
 - **Resource Group:** The resource group stores metadata about the resources. Therefore, when you specify a location for the resource group, you are specifying where that metadata is stored. For compliance reasons, you may need to ensure that your data is stored in a particular region. (How To Create Resource refer: https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-portal)
 - **Service Bus, Namespace, Shared Access Key and Shared Access Value:** 
   - **Namesapce:**
