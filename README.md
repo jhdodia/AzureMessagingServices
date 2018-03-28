@@ -1,4 +1,4 @@
-# AzureMessagingServices
+# AzureMessagingServices using python
 A sample of azure service bus to use cloud messaging transfermation.
 
 # Service Bus Introductory
@@ -11,5 +11,7 @@ Service Bus is a multi-tenant cloud service, which means that the service is sha
 for more details follow: https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-fundamentals-hybrid-solutions
 
 # Required Things to use this sample
-- Azure Account: To user azure cloud services (You can open free account for trial. Use This link to open free Accout: https://azure.microsoft.com/en-in/free/).
+##### *From Azure Portal:*
+- **Azure Account:** To user azure cloud services (You can open free account for trial. Use This link to open free Accout: https://azure.microsoft.com/en-in/free/).
+- **Resource Group:** The resource group stores metadata about the resources. Therefore, when you specify a location for the resource group, you are specifying where that metadata is stored. For compliance reasons, you may need to ensure that your data is stored in a particular region. (How To Create Resource refer: https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-portal)
 - 
