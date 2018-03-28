@@ -99,18 +99,13 @@ for i in range(5):
  - Receive Message from created topic
 ```
 '''
-Send messages to a topic
+Receive messages from a subscription
 --------------------------------------------------------------------------------------------
-To send a message to a Service Bus topic, your application must use the 
-send_topic_message method of the ServiceBusService object.
-
-The following example demonstrates how to send five test messages to mytopic. 
-Note that the messagenumber property value of each message 
-varies on the iteration of the loop (this determines which subscriptions receive it):
+Messages are received from a subscription using the receive_subscription_message 
+method on the ServiceBusService object:
 '''
-for i in range(5):
-    msg = Message('Msg {0}'.format(i).encode('utf-8'), custom_properties={'messagenumber':i})
-    bus_service.send_topic_message('FieldGatway2AzureCloud', msg)
+msg = bus_service.receive_subscription_message('FieldGatway2AzureCloud', 'LowMessages', peek_lock=False)
+print(msg.body)
 ```
 # Overall Explanation
 In servibusAgentSimulator.py file i have describe main part of Service Bus Messaging in Code Overview area. 
