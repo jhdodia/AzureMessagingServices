@@ -109,7 +109,7 @@ print(msg.body)
 ```
 # Overall Explanation
 In servibusAgentSimulator.py file i have describe main part of Service Bus Messaging in Code Overview area. 
-- Topic Options
+- Topic Options: 
 With relavant topic we can set the rules or option while creating topic. The create_topic method also supports additional options, which enable you to override default topic settings such as message time to live or maximum topic size. The following example sets the maximum topic size to 5 GB, and a time to live (TTL) value of 1 minute:
 ```
 #topic_options = Topic()
@@ -118,7 +118,7 @@ With relavant topic we can set the rules or option while creating topic. The cre
 
 #bus_service.create_topic('FieldGatway2AzureCloud', topic_options)
 ```
-- Optional filter and virtual Ques of Subscriptions
+- Optional filter and virtual Ques of Subscriptions: 
 Subscriptions are named and can have an optional filter that restricts the set of messages delivered to the subscription's virtual queue.
 
 The MatchAll filter is the default filter that is used if no filter is specified when a new subscription is created. When the MatchAll filter is used, all messages published to the topic are placed in the subscription's virtual queue. The following example creates a subscription named AllMessages and uses the default MatchAll filter.
